@@ -1,0 +1,9 @@
+﻿@model List<AthleteModel>
+
+<ul>
+    @foreach (var athletic in @Model)
+    {
+        <li>Id: @athletic.ID Name: @athletic.Name</li>
+    }
+
+</ul>
